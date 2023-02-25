@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2CB0CD;
+}
+h1{
+    font-size: 90px;
+}
+
+.nav{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: .25rem;
+}
+.siteTitle
+{
+    z-index: 1;
+    background-image: url('./images/logo.png');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+a{
+    font-size: 40px;
+    color:#2596be;
+    text-decoration: none;
+}
+.nav a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav li:hover{
+    background-color: white;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+
+/* -----------Home------------------ */
+#home{
+    height: 100vh;
+    background-color: #2CB0CD;
+}
+.motto{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 300px;
+    border-style:inset;
+}
+.motto:hover{
+    color: black;
+}
+
+/* -----------Our Services------------------ */
+
+#services{
+    height: 100vh;
+    background-color: #2CB0CD;
+    
+    
+    
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------Our Team------------------ */
+/* #team{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#team
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+.info{
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #2596be;
+}
+.img{
+    background-color: white;
+}
+
+/* -----------Contact Us------------------ */
+#contact{
+    height: 100vh;
+    background-color: #2CB0CD;
+}
+.contactContainer {
+    background-color: yellow;
+}
